@@ -1,4 +1,4 @@
-import confetti from "https://cdn.skypack.dev/canvas-confetti";
+// import confetti from "https://cdn.skypack.dev/canvas-confetti";
 
 function toggleMenu() {
   const menu = document.querySelector(".menu-links");
@@ -44,7 +44,7 @@ function setDarkMode() {
     icon.src = icon.getAttribute("src-dark");
   });
 
-  makeConfetti();
+  // makeConfetti();
 }
 
 function setLightMode() {
@@ -55,9 +55,11 @@ function setLightMode() {
     icon.src = icon.getAttribute("src-light");
   });
 
-  makeConfetti();
+  // makeConfetti();
 }
 
+
+//! Confetti config
 
 function makeConfetti(){
   makeConfettiDefault();
