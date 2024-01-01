@@ -58,10 +58,11 @@ function setLightMode() {
   // makeConfetti();
 }
 
+//!--------------------------------------------------------------
 
-//! Confetti config
+//? Confetti config
 
-function makeConfetti(){
+function makeConfetti() {
   makeConfettiDefault();
 }
 

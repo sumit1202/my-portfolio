@@ -19,6 +19,7 @@
         <li><a href="#experience">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="#projects-2"></a></li>
         <li>
           <img id="modeToggle" class="icon color-icon" src="./assets/theme_light.png"
             src-light="./assets/theme_light.png" src-dark="./assets/theme_dark.png" alt="Color theme icon" />
@@ -39,6 +40,7 @@
         <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
         <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
         <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        <!-- <li><a href="#projects-2" onclick="toggleMenu()"></a></li> -->
         <li>
           <img id="modeToggle2" class="icon color-icon" src="./assets/theme_light.png"
             src-light="./assets/theme_light.png" src-dark="./assets/theme_dark.png" alt="Color theme icon" />
@@ -47,30 +49,34 @@
     </div>
   </nav>
   <section id="profile">
-    <div class="section__pic-container">
-      <img src="./assets/profile-pic.jpg" alt="profile picture" class="profile-pic" />
-    </div>
-    <div class="section__text">
-      <p class="section__text__p1">Hello, I am</p>
-      <h1 class="title">Sumit Kumar</h1>
-      <p class="section__text__p2">Associate Software Engineer<br />Collabera Digital</p>
-      <div class="btn-container">
-        <button class="btn btn-color-2" onclick="window.open('./assets/my-resume.pdf')">
-          Download CV
-        </button>
-        <button class="btn btn-color-1" onclick="location.href='./#contact'">
-          Contact Info
-        </button>
+    <!-- <div class="section-container"> -->
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.jpg" alt="profile picture" class="profile-pic" />
       </div>
-      <div id="socials-container">
-        <img src="./assets/linkedin_light.png" src-light="./assets/linkedin_light.png"
-          src-dark="./assets/linkedin_dark.png" alt="My LinkedIn profile" class="icon linkedin-icon"
-          onclick="window.open('https://www.linkedin.com/in/sumit-kumar-270405164/', '_blank')" />
-        <img src="./assets/github_light.png" src-light="./assets/github_light.png" src-dark="./assets/github_dark.png"
-          alt="My github profile" class="icon github-icon"
-          onclick="window.open('https://github.com/sumit1202/','_blank')" />
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I am</p>
+        <h1 class="title">Sumit Kumar</h1>
+        <p class="section__text__p2">Associate Software Engineer<br />Collabera Digital</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/my-resume.pdf')">
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img src="./assets/linkedin_light.png" src-light="./assets/linkedin_light.png"
+            src-dark="./assets/linkedin_dark.png" alt="My LinkedIn profile" class="icon linkedin-icon"
+            onclick="window.open('https://www.linkedin.com/in/sumit-kumar-270405164/', '_blank')" />
+          <img src="./assets/github_light.png" src-light="./assets/github_light.png" src-dark="./assets/github_dark.png"
+            alt="My github profile" class="icon github-icon"
+            onclick="window.open('https://github.com/sumit1202/','_blank')" />
+        </div>
       </div>
-    </div>
+    <!-- </div>
+    <img src="./assets/arrow_light.png" src-light="./assets/arrow_light.png" src-dark="./assets/arrow_dark.png"
+      alt="Arrow icon" class="icon arrow" onclick="location.href='./#about'" /> -->
   </section>
   <section id="about">
     <p class="section__text__p1">Get To Know More</p>
@@ -96,19 +102,19 @@
         </div>
         <div class="text-container">
           <p>
-            Currently as an 'Associate Software Engineer' at Collabera Digital, I am actively involved in software
-            development, code analysis, and project implementation. Prior to this, I worked as an Information Security
-            Engineer at Infosys, where I was part of a software development project and conducted Cyber Security
-            Awareness activities. I also have experience as a Project Trainee at L&T EA, where I implemented ISO
-            27001:2013. I have developed several projects including a full-stack e-commerce application, a movie
-            recommender system, and a real-time note-taking app. I am proficient in Full Stack Development - Backend and
-            Frontend both.
+            As an Associate Software Engineer at Collabera Digital, I am actively involved in software development
+            projects and their implementation. My recent project involved developing a Generative AI-based Ticket
+            Resolution tool using Python and Langchain framework, leveraging GPT-4 LLM. Prior to this, I worked as an
+            Information Security Engineer at Infosys, where I contributed to the development of a Cyber Security
+            Scorecard application. I have a good understanding of software design & development, and have developed
+            various projects including a full-stack e-commerce application, a movie recommender system, and a real-time
+            note-taking app. I am proficient in Full Stack Development, both in Backend and Frontend.
           </p>
         </div>
       </div>
     </div>
-    <img src="./assets/arrow_light.png" src-light="./assets/arrow_light.png" src-dark="./assets/arrow_dark.png"
-      alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    <!-- <img src="./assets/arrow_light.png" src-light="./assets/arrow_light.png" src-dark="./assets/arrow_dark.png"
+      alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" /> -->
   </section>
   <section id="experience">
     <p class="section__text__p1">Explore My</p>
@@ -223,8 +229,8 @@
         </div>
       </div>
     </div>
-    <img src="./assets/arrow_light.png" src-light="./assets/arrow_light.png" src-dark="./assets/arrow_dark.png"
-      alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    <!-- <img src="./assets/arrow_light.png" src-light="./assets/arrow_light.png" src-dark="./assets/arrow_dark.png"
+      alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" /> -->
   </section>
   <section id="projects">
     <p class="section__text__p1">Browse My Recent</p>
@@ -284,9 +290,70 @@
         </div>
       </div>
     </div>
-    <!-- TODO: 3 other projects -->
     <img src="./assets/arrow_light.png" src-light="./assets/arrow_light.png" src-dark="./assets/arrow_dark.png"
-      alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+      alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects-2'" />
+  </section>
+  <section id="projects-2">
+    <!-- <p class="section__text__p1">Few more</p>
+    <h1 class="title">Projects</h1> -->
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-4.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">QAYPD</h2>
+          <p>QAYPD - Question-Answer with Your Personal Docs built using Python and Langchain that leverages
+            GPT4 LLM.</p>
+          <br>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/sumit1202/QAYPD','_blank')">
+              GitHub
+            </button>
+            <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Live Demo
+            </button> -->
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-5.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">htBENCH</h2>
+          <p>A Multithreaded Web Server Benchmarking Tool developed using C.</p>
+          <br>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/sumit1202/htBENCH','_blank')">
+              GitHub
+            </button>
+            <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Live Demo
+            </button> -->
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-6.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Ping Now</h2>
+          <p>An Android-based native chat application developed using Kotlin and Firebase.</p>
+          <br>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/sumit1202/Ping_Now','_blank')">
+              GitHub
+            </button>
+            <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Live Demo
+            </button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <img src="./assets/arrow_light.png" src-light="./assets/arrow_light.png" src-dark="./assets/arrow_dark.png"
+      alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" /> -->
   </section>
   <section id="contact">
     <p class="section__text__p1">Get in Touch</p>
@@ -309,6 +376,7 @@
     <nav>
       <div class="nav-links-container">
         <ul class="nav-links">
+          <li><a href="#">Profile</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
